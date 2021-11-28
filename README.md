@@ -10,6 +10,6 @@ assignment due: every monday afternoon!
 | :--: | :-----------------: | :------------: |
 |  Prep | Increment Counter  | update-completed |  
 |  WK1 | Order page | error fixed & update-completed |   
-|  WK2 | Summary page | update-in-progress 🍨  |  
-|  WK3 | Order-complete page | to-be-updated | 
+|  WK2 | Summary page | update-completed  |  
+|  WK3 | Order-complete page | update-in-progress 🍨 | 
 
