@@ -1,9 +1,16 @@
 import React from 'react';
+import OrderPage from './pages/orderPage/OrderPage';
+
+import Navbar from './components/Navbar';
+import { OrderContextProvider } from './context/orderContext';
 function App() {
 
   return (
     <div className="App">
-      <h3>trip-app</h3>
+      <Navbar />
+      <OrderContextProvider>
+        <OrderPage />
+      </OrderContextProvider>
     </div>
   );
 }

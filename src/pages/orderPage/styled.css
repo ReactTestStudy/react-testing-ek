@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&family=Poppins:ital,wght@1,400;1,600&family=Ruda&family=Signika:wght@400;600&display=swap');
+.wrapper {
+    display:flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    padding-left:60px;
+    /* 패딩L=> 모바일 화면에서 없애기 */
+}
+.order-container {
+    display:flex
+}
+
+.item-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.product-card {
+    margin:10px 5px 0px;
+    padding:20px 10px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+
+}
+.product-card img {
+    width:280px;
+    /* object-fit:fill */
+}
+
+.product-card form {
+    display:flex;
+    padding:5px;
+    justify-content:space-between;
+    text-align:center;
+    align-items: center;
+}
+
+.product-card form input {
+    margin-left: 10px;
+    border:none;
+    width:40px;
+}
+
+.title {
+    padding:10px 0;
+}
+
+.option-form {
+    padding-top:5px;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    text-align:left;
+    justify-content: center;
+    flex-wrap:wrap;
+
+}
+
+.order-button {
+    width:300px;
+    padding:15px 20px;
+    margin:10px 0;
+    border-radius: 5px;
+    border:none;
+    font-size:20px
+}
